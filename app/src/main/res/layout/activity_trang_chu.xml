@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrangChu"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/txtWel"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THI ĐẤU"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#4CAF50"/>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:layout_weight="1"
+
+                app:backgroundTint="@null"
+                android:background="#03A9F4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Troll"
+                android:id="@+id/btnTroll"
+                android:layout_marginRight="5dp"
+                />
+            <Button
+                android:layout_weight="1"
+                app:backgroundTint="@null"
+                android:background="#97D5DD"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Math"
+                android:id="@+id/btnMath"
+                />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <TextView
+            android:textColor="#F60000"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xếp hạng"
+            android:gravity="center"
+            android:textSize="20sp"/>
+        <Button
+
+            app:backgroundTint="@null"
+            android:background="#BEC66C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bảng xếp hạng"
+            android:id="@+id/btnRank"
+
+            />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment"
+            android:layout_marginTop="5dp"
+            android:layout_weight="6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:backgroundTint="#00BCD4"/>
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

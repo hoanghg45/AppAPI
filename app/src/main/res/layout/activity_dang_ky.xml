@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangKy"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký tài khoản"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#EC0202"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMs"
+        android:hint="MSSV"
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtName"
+        android:hint="Họ và tên"
+
+        />
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMail"
+        android:hint="Email"
+
+        />
+    <EditText
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edtSdt"
+    android:hint="Sdt"
+    android:layout_marginBottom="20dp"
+    />
+
+    <Button
+        app:backgroundTint="@null"
+        android:background="#03A9F4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký"
+        android:id="@+id/btnDk"
+        android:layout_margin="20dp"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn đã có tài khoản, đăng nhập ngay"
+        android:gravity="center"
+        android:textSize="20sp"
+        />
+    <Button
+        app:backgroundTint="@null"
+        android:background="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập ngay"
+        android:id="@+id/btnDn"
+        android:layout_margin="20dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
